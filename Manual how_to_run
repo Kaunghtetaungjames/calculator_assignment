@@ -1,0 +1,42 @@
+Calculator Manual
+
+The Calculator is a simple Python program designed to evaluate arithmetic expressions, convert expressions to prefix or postfix notation, and provide additional information about the calculator. It supports basic arithmetic operations such as addition (+) and multiplication (*).
+
+Features:
+- Evaluation of arithmetic expressions in infix notation.
+- Conversion of expressions to prefix and postfix notation.
+- Display of additional information about the calculator.
+
+3. How to Run:
+Requirements:
+- Python 3.x installed on your system.
+
+Steps:
+1. Open a text editor or an Integrated Development Environment (IDE) such as Visual Studio Code, PyCharm, or IDLE.
+2. Copy the provided Python code.
+3. Paste the code into a new file in your text editor or IDE.
+4. Save the file with a descriptive filename, for example, `calculator.py`.
+5. Open a terminal or command prompt.
+6. Navigate to the directory where you saved the `calculator.py` file using the `cd` command.
+7. Type the following command and press Enter:
+   ```
+   python calculator.py
+   ```
+8. Follow the instructions displayed on the screen to perform calculations, convert expressions, or get more information about the calculator.
+9. To quit the program, enter "quit" when prompted for input and press Enter.
+
+Options:
+- calculate: Enter an arithmetic expression in infix notation to evaluate it.
+- prefix: Convert an arithmetic expression in infix notation to prefix notation.
+- postfix: Convert an arithmetic expression in infix notation to postfix notation.
+- info: Display additional information about the calculator and its features.
+- quit: Exit the program.
+
+ Examples:
+- To evaluate an expression, type "calculate" and enter the expression when prompted.
+- To convert an expression to prefix notation, type "prefix" and enter the expression when prompted.
+- To convert an expression to postfix notation, type "postfix" and enter the expression when prompted.
+- To display information about the calculator, type "info".
+- To quit the program, type "quit".
+
+Note: The calculator currently supports only basic arithmetic operations (+ and *). Ensure that the expressions you input follow proper infix notation rules.
